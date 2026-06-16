@@ -1,0 +1,35 @@
+[2026-06-16 23:52:25] [WARN] test_data/dangerous.sh World writable permissions
+[2026-06-16 23:52:25] [WARN] test_data/dangerous.sh Destructive command detected
+[2026-06-16 23:52:25] [WARN] test_data/dangerous.sh Suspicious remote execution
+[2026-06-16 23:52:25] [INFO] test_data/.env Valid: 0 Invalid: 0
+[2026-06-16 23:52:25] [SKIP] test_data/.env Rejected: ,
+[2026-06-16 23:52:25] [INFO] test_data/.env.example Valid: 0 Invalid: 0
+[2026-06-16 23:52:25] [SKIP] test_data/.env.example Rejected: ,
+[2026-06-16 23:55:04] [WARN] test_data/dangerous.sh World writable permissions
+[2026-06-16 23:55:04] [WARN] test_data/dangerous.sh Destructive command detected
+[2026-06-16 23:55:04] [WARN] test_data/dangerous.sh Suspicious remote execution
+[2026-06-16 23:55:04] [WARN] test_data/dangerous.sh Reverse shell detected
+[2026-06-16 23:55:04] [INFO] test_data/.env.sanitized Valid: 0 Invalid: 0
+[2026-06-16 23:55:04] [SKIP] test_data/.env.sanitized Rejected: ,
+[2026-06-16 23:55:04] [INFO] test_data/.env Valid: 3 Invalid: 10
+[2026-06-16 23:55:04] [SKIP] test_data/.env Rejected: ,PASSWORD=secret123,TOKEN=abc123,SECRET=hidden,,KEY = value,SERVER-NAME=test,,USER="admin",,,
+[2026-06-16 23:55:04] [INFO] test_data/.env.example Valid: 2 Invalid: 0
+[2026-06-16 23:55:04] [SKIP] test_data/.env.example Rejected: ,
+[2026-06-16 23:55:04] [INFO] test_data/.env.example.sanitized Valid: 2 Invalid: 0
+[2026-06-16 23:55:04] [SKIP] test_data/.env.example.sanitized Rejected: ,
+[2026-06-16 23:56:16] [WARN] test_data/dangerous.sh World writable permissions
+[2026-06-16 23:56:16] [WARN] test_data/dangerous.sh Destructive command detected
+[2026-06-16 23:56:16] [WARN] test_data/dangerous.sh Suspicious remote execution
+[2026-06-16 23:56:16] [WARN] test_data/dangerous.sh Reverse shell detected
+[2026-06-16 23:56:16] [INFO] test_data/.env.sanitized Valid: 3 Invalid: 0
+[2026-06-16 23:56:16] [SKIP] test_data/.env.sanitized Rejected: ,
+[2026-06-16 23:56:16] [INFO] test_data/.env Valid: 3 Invalid: 10
+[2026-06-16 23:56:16] [SKIP] test_data/.env Rejected: ,PASSWORD=secret123,TOKEN=abc123,SECRET=hidden,,KEY = value,SERVER-NAME=test,,USER="admin",,,
+[2026-06-16 23:56:16] [INFO] test_data/.env.example.sanitized.sanitized Valid: 2 Invalid: 0
+[2026-06-16 23:56:16] [SKIP] test_data/.env.example.sanitized.sanitized Rejected: ,
+[2026-06-16 23:56:16] [INFO] test_data/.env.example Valid: 2 Invalid: 0
+[2026-06-16 23:56:16] [SKIP] test_data/.env.example Rejected: ,
+[2026-06-16 23:56:16] [INFO] test_data/.env.example.sanitized Valid: 2 Invalid: 0
+[2026-06-16 23:56:16] [SKIP] test_data/.env.example.sanitized Rejected: ,
+[2026-06-16 23:56:16] [INFO] test_data/.env.sanitized.sanitized Valid: 3 Invalid: 0
+[2026-06-16 23:56:16] [SKIP] test_data/.env.sanitized.sanitized Rejected: ,
